@@ -21,3 +21,15 @@ console.log("Updated Orders:", orders);
 // Print the update list of orders
 console.log("Total Order Count:", TotalOrders);
 // Print the overall total order.
+
+//Task 3 - Employee Performce Tracking Scenario
+
+let employee = { name: "Shaquille", role: "Senior Analyst", PerformanceScore: 95, isActive: true };
+// Declare an object employee with properties name, role, PerformanceScore, and isActive
+employee.PerformanceScore = 98;
+// Increase the Performance Score by 3
+employee.PromotionEligible= true;
+// Add a property promotionEligible and set it to true
+console.log("Updated Employee:", employee);
+// Print the updated employee object
+
